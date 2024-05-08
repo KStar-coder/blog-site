@@ -1,4 +1,6 @@
-# React + Vite
+# Blog site 
+
+## Using Appwrite for backend services.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
