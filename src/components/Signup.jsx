@@ -77,6 +77,20 @@ function Signup() {
                             }}
                         />
 
+                        <Input
+                            label="Password"
+                            type='password'
+                            placeholder='Enter your password'
+                            {...register("password", {
+                                required: true,
+                            })}
+                        />
+
+                        <Button
+                            type="submit"
+                            className='w-full'
+                        >Create Account</Button>
+
                     </div>
                 </form>
 
