@@ -15,7 +15,7 @@ import { Client, Account, ID } from 'appwrite'
 export class AuthService {
     client = new Client()
     account
-    // creating a constructor to set client details as soon as the object is called so that we can  set the account
+    // creating a constructor to set client details as soon as the object is called so that we can set the account
     constructor() {
         this.client
             .setEndpoint(conf.appwriteUrl)
